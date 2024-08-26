@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section#superior{
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 38px 38px 38px 38px;
+-moz-border-radius: 38px 38px 38px 38px;
+-webkit-border-radius: 38px 38px 38px 38px;
+border: 0px solid #000000;
+    height: 465px;
+}
+header#cabecera{
+    display: block;
+    margin: auto;
+    width: 940px; 
+    height: 98px;
+}
+#cabecera ul {
+    float: right;
+    list-style: none;
+    display: block ;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    height: 65px;
+    width: 175px;
+}
+    #cabecera ul li {
+        display: block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+        height: 45px;
+        width: 45px;
+    }
+    div#logos{
+        float: left; 
+        height: 25px;
+        margin-top: -25px;
+        width: 188px;
+
+    }
+
+    nav{
+        background: #E0EAFC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+height: 45px;
+margin: auto;
+padding: 0;
+width: 940px;
+    }
+nav ul{
+    display: block;
+    float: left;
+    list-style: none;
+}
+nav li{
+    float: left;
+}
+nav a{
+ color: rgb(0, 47, 255);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    height: 4%;
+padding: 10px;
+text-decoration: none;
+border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+}
+nav a:hover,a:focus{
+    background: #324ad675;
+    color: rgb(238, 10, 10);
+}
+#slider{
+    
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 295px;
+    width: 940px;
+}
+section#contenedor{
+    background: rgb(245, 245, 245)
+}
+section#contenedorinterior{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    width: 940px;
+}
+section#contenido{
+    border: 10px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 700px;
+}
+aside{
+    border: 10px;
+    display: block;
+    float: right;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 230px;
+}
+h4{
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+text-decoration: none;
+border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+    }
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    margin-top: 10px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+h2{
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 38px 38px 38px 38px;
+    border: 0px solid #000000;
+}
+h3{
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+vertical-align: middle;
+padding-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+height: 35px;
+text-align: center;   
+border-radius: 38px 38px 38px 38px;
+-moz-border-radius: 38px 38px 38px 38px;
+-webkit-border-radius: 38px 38px 38px 38px;
+border: 0px solid #000000;
+}
+.info p{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+#limpiar{
+    clear: both;
+}
+.info img{
+    display: block;
+    float: left;
+    margin: 10px;
+    
+}
+.info p{
+    display: block;
+    width: 460px;
+    float: right;
+    font-size: 15px;
+}
+.comoempresa{
+    width: 700px;
+    display: block;
+    float: left;
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 38px 38px 38px 38px;
+    border: 0px solid #000000;
+}
+.empresa{
+    width: 700px;
+    display: block;
+    float: left;
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 38px 38px 38px 38px;
+    border: 0px solid #000000;
+}
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 16px;
+}
+.color{
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+text-decoration: none;
+border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+}
+section#contenedor{
+    border-radius: 10%;
+    border-color: #000000;
+    border: 12px;
+
+}
+.border{
+    border: 10px;
+}
+section#inferior{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+footer{
+    display: block;
+    margin: auto;
+    height: 130px;
+    width: 940px;
+}
+.Warner{
+    margin: 28px;
+}
+.comoempresa img{
+    padding: 10px;
+text-decoration: none;
+border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+}
+.empresa img{
+    padding: 10px;
+text-decoration: none;
+border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+}
+.primera img{
+
+text-decoration: none;
+border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+}
+section#inferior{
+    width: 100%;
+}
+
+.datacontacto p{ 
+    pad: 0px;
+    margin: 10px;
+    width: 675px;
+}
+form{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 565px;
+}
